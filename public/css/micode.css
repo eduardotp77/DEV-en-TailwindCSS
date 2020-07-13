@@ -1,0 +1,28 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+menu{
+	list-style-type: none;
+
+}
+
+#headerContainer{
+	display: flex;
+	justify-content: space-around;
+
+}
+#headerContainer div img{
+	width: 20em;
+}
+#headerContainer div ul{
+	width: 100%;
+
+	text-align: center;
+}

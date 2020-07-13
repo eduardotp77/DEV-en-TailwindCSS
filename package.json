@@ -1,0 +1,17 @@
+{
+  "name": "Explorando TailwindCSS",
+  "version": "1.0.0",
+  "description": "Conociendo las el frameworks",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind-base.css -o public/css/style.css"
+  },
+  "keywords": [],
+  "author": "Eduardo Tobacia",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
